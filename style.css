@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Card */
+.container {
+    background: #ffffff;
+    padding: 35px 30px;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 16px;              /* Perfect shape */
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+.container h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Input & Select */
+input, select {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #2193b0;
+    box-shadow: 0 0 8px rgba(33,147,176,0.3);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Result Box */
+#result {
+    margin-top: 25px;
+    padding: 18px;
+    border-radius: 12px;
+    background: #f4f9ff;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.5;
+}
